@@ -125,4 +125,10 @@ public class DataIO {
 		}
 	}
 	
+	public void clean(){
+		this.message = "";
+		this.writeMessage("");
+		System.out.println("fichier nettoyé !");
+	}
+	
 }
