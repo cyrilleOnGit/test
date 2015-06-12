@@ -56,6 +56,9 @@ public class DataIO {
 		}else{
 			System.out.println(this.file.getPath() + " existe déjà");
 		}
+		
+		//Récupération des données De README.txt
+		this.message = this.readMessage();
 	}
 	
 	//méthode qui lit le Fichier README.txt
